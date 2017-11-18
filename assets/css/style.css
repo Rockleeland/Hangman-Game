@@ -1,0 +1,81 @@
+.container {
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 0 0 #d91f26, -2px 0 0 #d91f26, 0 2px 0 #d91f26, 0 -2px 0 #d91f26, 1px 1px #d91f26, -1px -1px 0 #d91f26, 1px -1px 0 #d91f26, -1px 1px 0 #d91f26;
+    color: black !important;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.font-size {
+  font-size: 1.5em;
+}
+
+
+body{
+    background-color: black;
+}
+
+.img-responsive {
+  height: 60%;
+}
+
+
+/*Flexbox*/
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap; ;
+  background-color: black;
+  height: 350px;
+}
+
+.flex-container>.flex1 {
+  flex: 1;
+  background-color: black;
+  width: 300px;
+  margin: 10px;
+  margin-left: 15%;
+  text-align: center;
+  
+}
+
+.flex-container>.flex2 {
+  flex: 1;
+  background-color: black;
+  width: 300px;
+  margin: 10px;
+  margin-right: 30%;
+  text-align: center;
+  
+}
+
+/*Flexbox for wins and losses*/
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap; ;
+  background-color: black;
+}
+
+.flex-container2>.flex3 {
+  flex: 1;
+  background-color: black;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.flex-container2>.flex4 {
+  flex: 1;
+  background-color: black;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  
+  
+
